@@ -52,7 +52,21 @@ For fish
 ```fish
 set -Ux GOOGLE_API_KEY 'your api key'
 ```
+### SlackBot API Keys
+For the SlackBot to work you would need the Slack API Keys.
 
+For bash
+```bash
+export slack_signing_secret ='SLACK_SIGNING_SECRET'
+export slack_bot_token = 'SLACK_BOT_TOKEN'
+
+```
+
+For fish
+```fish
+set -Ux slack_signing_secret 'SLACK_SIGNING_SECRET'
+set -Ux slack_bot_token 'SLACK_BOT_TOKEN'
+```
 ## Usage
 
 ### Activate pyenv
@@ -80,6 +94,12 @@ All you need to do is run the main healthyways package
 
 ```
 python healthyways
+```
+
+For the SlackBot (note that you first have to configure the Bot as well as set an https tunnel. More infos: [Slack API]https://api.slack.com/
+
+```
+python healthyways/slackbot.py
 ```
 
 
