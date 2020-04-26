@@ -96,7 +96,7 @@ All you need to do is run the main healthyways package
 python healthyways
 ```
 
-For the SlackBot (note that you first have to configure the Bot as well as set an https tunnel. More infos: [Slack API]https://api.slack.com/
+For the SlackBot (note that you first have to configure the Bot as well as set an https tunnel. More infos: [Slack API](https://api.slack.com/)
 
 ```
 python healthyways/slackbot.py
