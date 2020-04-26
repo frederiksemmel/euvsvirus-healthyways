@@ -1,0 +1,4 @@
+{
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/home/frederik/.cache/pypoetry/virtualenvs/healthyways-rlN5SmGS-py3.8/bin/python3"
+}
